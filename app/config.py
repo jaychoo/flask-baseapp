@@ -7,6 +7,7 @@ ADMINS = frozenset(['youremail@yourdomain.com'])
 SECRET_KEY = 'SecretKeyForSessionSigning'
 
 SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(_basedir, 'app.db')
+SQLALCHEMY_MIGRATE_REPO = os.path.join(_basedir, 'db_repository')
 DATABASE_CONNECT_OPTIONS = {}
 
 THREADS_PER_PAGE = 8
