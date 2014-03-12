@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/james/Development/Credacious.com/credacious-flask/flask-env"
+set -gx VIRTUAL_ENV "/home/james/Development/Flask/flask-baseapp/flask-env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
