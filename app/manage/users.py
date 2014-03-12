@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    overholt.manage.users
+    app.manage.users
     ~~~~~~~~~~~~~~~~~~~~~
 
     user management commands
@@ -11,8 +11,6 @@ from flask.ext.script import Command, prompt, prompt_pass
 from flask_security.forms import RegisterForm
 from flask_security.registerable import register_user
 from werkzeug.datastructures import MultiDict
-
-from ..services import users
 
 
 class CreateUserCommand(Command):
