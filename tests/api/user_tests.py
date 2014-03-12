@@ -6,10 +6,10 @@
     api user tests module
 """
 
-from . import OverholtApiTestCase
+from . import BaseApiTestCase
 
 
-class UserApiTestCase(OverholtApiTestCase):
+class UserApiTestCase(BaseApiTestCase):
 
     def test_get_current_user(self):
         r = self.jget('/users')
