@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-    overholt.manage
+    app.manage
     ~~~~~~~~~~~~~~~
 
-    overholt manager package
+    BaseApp manager package (taken from overholt repo)
 """
 
-from .products import *
-from .stores import *
 from .users import *
