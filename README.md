@@ -1,6 +1,11 @@
 # Flask BaseApp
 
-BaseApp is an example Flask application with some basics already setup.
+BaseApp is an example Flask application with some basics already setup. This was inspired by a few places:
+
+* https://github.com/mattupstate/overholt
+* https://github.com/mitsuhiko/flask/wiki/Large-app-how-to
+* https://github.com/mjhea0/flask-boilerplate
+* http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
 #### Management Commands
 
