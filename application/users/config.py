@@ -13,3 +13,14 @@ SECURITY_CONFIRM_SALT = 'use uuidgen on linux to generate a unique salt'
 SECURITY_RESET_SALT = 'use uuidgen on linux to generate a unique salt'
 SECURITY_LOGIN_SALT = 'use uuidgen on linux to generate a unique salt'
 SECURITY_REMEMBER_SALT = 'use uuidgen on linux to generate a unique salt'
+
+# Flask-Social configuration options
+SOCIAL_TWITTER = {
+    'consumer_key': 'twitter consumer key',
+    'consumer_secret': 'twitter consumer secret'
+}
+
+SOCIAL_FACEBOOK = {
+    'consumer_key': 'facebook app id',
+    'consumer_secret': 'facebook app secret'
+}
