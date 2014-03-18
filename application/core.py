@@ -19,7 +19,6 @@ from logging.handlers import SysLogHandler
 app.logger.setLevel(DEBUG)
 handler = SysLogHandler(address = '/dev/log')
 app.logger.addHandler(handler)
-app.logger.debug('ok setup logging')
 
 # Setup 404 handler
 @app.errorhandler(404)

@@ -34,4 +34,3 @@ class User(db.Model, UserMixin):
 # Setup Flask-Security
 app.user_datastore = SQLAlchemyUserDatastore(db, User, Role)
 app.security = Security(app, app.user_datastore)
-app.logger.debug('ok setup')
