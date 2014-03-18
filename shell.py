@@ -1,11 +1,11 @@
 #!/usr/bin/env python
-import os
 import IPython
 
 # Import our app
-from app import *
+from application.core import *
 
-os.environ['PYTHONINSPECT'] = 'True'
+# import os
+# os.environ['PYTHONINSPECT'] = 'True'
 
 # Setup the IPython welcome message
 welcome_message = """Welcome to your Flask CLI environment.

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
     manage
@@ -8,9 +9,8 @@
 
 from flask.ext.script import Manager
 
-# from app.api import create_app
-from app import app
-from app.manage import CreateUserCommand, DeleteUserCommand, ListUsersCommand
+from application.core import app
+from application.manage import CreateUserCommand, DeleteUserCommand, ListUsersCommand
 
 manager = Manager(app)
 manager.add_command('create_user', CreateUserCommand())
