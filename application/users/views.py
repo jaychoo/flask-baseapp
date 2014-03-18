@@ -1,0 +1,1 @@
+from flask.ext.security import login_required
